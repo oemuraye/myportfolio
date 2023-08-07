@@ -503,6 +503,11 @@ section {
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
+  height: 180px;
+}
+.portfolio .portfolio-item img {
+  height: 100%;
+  object-fit: cover;
 }
 
 .portfolio #portfolio-flters {
@@ -541,7 +546,8 @@ section {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  /* height: 300px; */
+  height: 100%;
+  margin: 20px 0;
 }
 
 .portfolio-links {
