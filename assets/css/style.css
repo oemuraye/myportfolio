@@ -119,6 +119,17 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   text-decoration: none;
 }
+#header::-webkit-scrollbar {
+  width: 5px;
+}
+#header::-webkit-scrollbar-thumb {
+  background-color: var(--basic-color);
+  border-radius: 100px;
+}
+#header::-webkit-scrollbar-track {
+  background-color: #f6f6f6;
+  border-radius: 100px;
+}
 
 #main {
   margin-left: 300px;
